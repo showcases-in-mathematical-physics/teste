@@ -6,7 +6,8 @@ layout: default
   {% assign todas_notas = site.notes | sort: 'title' %}
   {% for nota in todas_notas %}
     <li>
-      <a href="{{ nota.url }}">{{ nota.title }}</a>
+      <!--<a href="{{ nota.url }}">{{ nota.title }}</a>-->
+      <a href="{{ nota.url | relative_url }}">{{ nota.title }}</a>
       <p>{{ nota.description }}</p>
     </li>
   {% endfor %}
