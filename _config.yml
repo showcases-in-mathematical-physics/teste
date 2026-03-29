@@ -6,6 +6,7 @@ github:
 future: true
 timezone: America/Sao_Paulo
 baseurl: "/teste"
+url: "https://alexandre-joao.github.io"
 collections:
   seminars:
     output: true
