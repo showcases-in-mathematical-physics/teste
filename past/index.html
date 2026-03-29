@@ -2,6 +2,15 @@
 layout: default
 ---
 <h1>Discussions</h1>
+<ul>
+  {% assign todas_disc = site.Discussions | sort: 'title' %}
+  {% for disc in todas_disc %}
+    <li>
+      <a href="{{ disc.url | relative_url }}">{{ disc.title }}</a>
+      <p>{{ disc.description }}</p>
+    </li>
+  {% endfor %}
+</ul>
 <!--
 {%- assign past = site.seminars | sort: 'date' | reverse | where_exp:"seminar","seminar.date < site.time" %}
 <h1>Past Seminars</h1>
