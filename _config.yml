@@ -17,7 +17,7 @@ collections:
   notes:
     output: true 
     permalink: /notes/:path/
-    Discussions:
+  Discussions:
     output: true 
     permalink: /Discussions/:path/
 defaults:
