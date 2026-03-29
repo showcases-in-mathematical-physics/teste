@@ -2,6 +2,15 @@
 layout: default
 ---
 <h1>Notes</h1>
+<ul>
+  {% assign todas_notas = site.notes | sort: 'title' %}
+  {% for nota in todas_notas %}
+    <li>
+      <a href="{{ 'What-is-Mathematical-Physics.md' | relative_url }}">{{ What is Mathematical Physics? }}</a>
+      <p>{{ Trying to define what is this area }}</p>
+    </li>
+  {% endfor %}
+</ul>
 <!---
 <ul>
 {% assign future = site.seminars | sort: 'date' | where_exp:"seminar","seminar.date > site.time" %}
