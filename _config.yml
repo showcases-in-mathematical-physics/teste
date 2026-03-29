@@ -13,7 +13,8 @@ collections:
     output: false
   bibliography:
     output: false
-    
+  notes:
+    output: true  
 defaults:
   - scope:
       path: ""
