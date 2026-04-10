@@ -13,10 +13,15 @@ $accent-secondary: #5aaaf5;
 $accent-visited:   #72cff0;
 
 /* Fonts */
-$font-light: 'MontserratLight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+/* $font-light: 'MontserratLight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $font-regular: 'MontserratRegular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $font-semibold: 'MontserratSemiBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$font-bold: 'MontserratBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-bold: 'MontserratBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;  Fonts before I change to Palatino */
+
+$font-light:    'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+$font-regular:  'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+$font-semibold: 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+$font-bold:     'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
 
 /* Sizes */
 $base-font-size: 14px;
