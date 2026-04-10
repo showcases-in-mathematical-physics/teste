@@ -6,7 +6,7 @@ João Macedo, April 2026.
 
 Many texts in physics naively define the Dirac delta function $\delta:\mathbb{R}\to\mathbb{R}$ as
 
-$$ \delta(x)=\begin{cases} &\infty,\text{ if }x=0\\ &0\text{ if }x\neq0 \end{cases}. $$
+$$ \delta(x)=\begin{cases} \infty,\text{ if }x=0\\ 0,\text{ if }x\neq0 \end{cases}. $$
 
 However, $\infty\notin\mathbb{R}$, so this rule does not defines a function properly. To remedy this, many texts, such as Butkov, states that the Dirac delta must be thought as the limit of a sequence of functions. Such sequences are called as delta sequences. For instance, consider the sequence $(f_n)$ of functions $f_n:\mathbb{R}\to\mathbb{R}$ given by
 
