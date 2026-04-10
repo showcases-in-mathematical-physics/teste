@@ -14,11 +14,17 @@
     
     <!-- MathJax -->
     <script>
-      MathJax = {
+        MathJax = {
         tex: {
           inlineMath: [['$', '$'], ['\\(', '\\)']],
           displayMath: [['$$', '$$'], ['\\[', '\\]']],
           tags: 'ams'
+        },
+        chtml: {
+          mtextInheritFont: true
+        },
+        svg: {
+          mtextInheritFont: true
         }
       };
     </script>
