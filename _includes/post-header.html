@@ -1,0 +1,7 @@
+{% if page.author %}
+<div class="post-header">
+  <p>
+    <a href="mailto:{{ page.author_email }}">{{ page.author }}</a>,
+    {{ page.date | date: "%B %Y" }}
+  </p>
+</div>
