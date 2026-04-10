@@ -11,3 +11,13 @@
 
 /* Layout */
 @import "layout/navigation";
+
+/* Override das cores do tema Midnight */
+
+a {
+  color: #4da6ff !important;
+}
+
+a:hover {
+  color: #1e90ff !important;
+}
