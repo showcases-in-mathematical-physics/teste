@@ -4,7 +4,8 @@ body {
     font: #{$base-font-size}/#{$base-line-height} $font-regular;
     color: $text-main;
     font-weight:normal;
-    text-align: center;
+   /* text-align: center; */
+    text-align: left;
     background-color: $bg-main;
     background-attachment:fixed !important;
     background:linear_gradient($bg-light, $bg-dark);
