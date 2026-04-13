@@ -1,8 +1,9 @@
 ---
 layout: default
-title: "What is Mathematical Physics?"
+title: "Testing"
 author: "Alexandre Mendonça"
-
+author_url: "https://orcid.org/0009-0007-0034-5243"  
+description: "just testing some stuff in the notes"
 ---
 <div style="margin-bottom: 2.5rem;">
 
