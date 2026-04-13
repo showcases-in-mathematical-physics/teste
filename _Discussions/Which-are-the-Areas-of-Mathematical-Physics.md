@@ -5,6 +5,7 @@ Author:
     - name: Alexandre Mendonça Rodrigues
       website: (sem link ainda)
       orcid: (dps coloca)
+      date: 2026-04-12
 bibliography: 
     - (ver como colocar referências)
     - lima2010awakingvacuumrelativistic
