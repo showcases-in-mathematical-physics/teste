@@ -1,0 +1,14 @@
+_discussions -> discussions7
+_bibliography -> bibliografia de Markdown do infograviton
+_includes -> ainda n entendi
+_layouts -> tem o favicon (não sei se tem mais coisa)
+_notes -> notas
+_sass -> detalhes gráficos do site
+_seminars -> arquivos de markdown com apresentações registradas no infograviton
+_suggestions -> arquivos de markdown com sugestões de apresentações pro infograviton
+Assets -> CSS/fontes/fotos dos membros
+Past e Upcoming -> comandos específicos sobre como as notas ficam
+Suggestions -> About
+
+
+
